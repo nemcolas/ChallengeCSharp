@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OdontoPrevCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebac9099cedf55d627d69c307de1f98594022c20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f94742ce1aa3ec43a646c4905e5b02649f7e469e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OdontoPrevCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OdontoPrevCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

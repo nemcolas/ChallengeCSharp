@@ -14,6 +14,8 @@
       </PackageReference>
       <PackageReference Include="Microsoft.ML" Version="4.0.2" />
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
+      <PackageReference Include="Moq" Version="4.20.72" />
+      <PackageReference Include="MSTest.TestFramework" Version="3.9.0" />
       <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.60" />
     </ItemGroup>
 
@@ -21,6 +23,14 @@
     <ItemGroup>
       <InternalsVisibleTo Include="OdontoPrevCSharp.Tests.Integration" />
       <InternalsVisibleTo Include="OdontoPrevCSharp.Tests.Unit" />
+    </ItemGroup>
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Tests\Integration\obj\OdontoPrevCSharp.Tests.Integration.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Tests\Integration\obj\project.assets.json" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Tests\Integration\OdontoPrevCSharp.Tests.Integration.csproj" />
+      <Content Include="Tests\Unit\OdontoPrevCSharp.Tests.Unit.csproj" />
     </ItemGroup>
 
 </Project>

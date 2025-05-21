@@ -1,0 +1,195 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OdontoPrevCSharp
+build_property.RootNamespace = OdontoPrevCSharp
+build_property.ProjectDir = C:\Users\nimar\OneDrive\Área de Trabalho\SPRINT 4 TA ACABANDO IRMÃO\dotnet\ChallengeCSharp_melhorado\ChallengeCSharp_melhorado\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nimar\OneDrive\Área de Trabalho\SPRINT 4 TA ACABANDO IRMÃO\dotnet\ChallengeCSharp_melhorado\ChallengeCSharp_melhorado
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Consultas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Consultas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Consultas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Consultas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Consultas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Dentistas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVudGlzdGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Dentistas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVudGlzdGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Dentistas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVudGlzdGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Dentistas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVudGlzdGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Dentistas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVudGlzdGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Enderecos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Enderecos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Enderecos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Enderecos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Enderecos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Generos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Generos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Generos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Generos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Generos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Pacientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Pacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Pacientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Pacientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Pacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Sinistros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaXN0cm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Sinistros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaXN0cm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Sinistros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaXN0cm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Sinistros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaXN0cm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Sinistros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaXN0cm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Tratamentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtZW50b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Tratamentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtZW50b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Tratamentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtZW50b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Tratamentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtZW50b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Tratamentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtZW50b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nimar/OneDrive/Área de Trabalho/SPRINT 4 TA ACABANDO IRMÃO/dotnet/ChallengeCSharp_melhorado/ChallengeCSharp_melhorado/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5jwulu5amf

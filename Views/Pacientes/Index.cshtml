@@ -1,0 +1,86 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<OdontoPrevCSharp.Models.Paciente>
+
+@{
+    ViewData["Title"] = "Lista de Pacientes";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1>@ViewData["Title"]</h1>
+        <p>
+            <a asp-action="Create" class="btn btn-primary"> <i class="fas fa-plus-circle"></i> Adicionar Novo Paciente</a>
+        </p>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Nenhum paciente cadastrado ainda.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Nome)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DataNascimento)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Cpf)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Genero)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Endereco)
+                        </th>
+                        <th class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+            @foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataNascimento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cpf)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Genero.Descricao) @* Alterado para Descricao do Gênero *@
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Endereco.Rua), @Html.DisplayFor(modelItem => item.Endereco.Numero) @* Melhorando exibição do endereço *@
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.IdPaciente" class="btn btn-outline-primary btn-sm me-1" title="Editar">
+                                <i class="fas fa-edit"></i> Editar
+                            </a> 
+                            <a asp-action="Details" asp-route-id="@item.IdPaciente" class="btn btn-outline-info btn-sm me-1" title="Detalhes">
+                                <i class="fas fa-info-circle"></i> Detalhes
+                            </a> 
+                            <a asp-action="Delete" asp-route-id="@item.IdPaciente" class="btn btn-outline-danger btn-sm" title="Excluir">
+                                <i class="fas fa-trash-alt"></i> Excluir
+                            </a>
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+@* Para os ícones do Font Awesome, você precisaria adicionar a referência no _Layout.cshtml ou globalmente. Exemplo:
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+*@
+

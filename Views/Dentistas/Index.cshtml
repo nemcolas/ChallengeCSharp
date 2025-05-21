@@ -1,0 +1,60 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<OdontoPrevCSharp.Models.Dentista>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Especialidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genero)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Especialidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco.IdEndereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero.IdGenero)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdDentista">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdDentista">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdDentista">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

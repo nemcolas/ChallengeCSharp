@@ -1,0 +1,55 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model OdontoPrevCSharp.Models.Tratamento
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Tratamento</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoTratamento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TipoTratamento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Custo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Custo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataInicio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataInicio)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataTermino)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataTermino)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Consulta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Consulta.IdConsulta)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdTratamento">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

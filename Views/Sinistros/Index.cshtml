@@ -1,0 +1,54 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<OdontoPrevCSharp.Models.Sinistro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MotivoSinistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataAbertura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusSinistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consulta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MotivoSinistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataAbertura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusSinistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Consulta.IdConsulta)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdSinistro">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdSinistro">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdSinistro">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,143 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model OdontoPrevCSharp.Models.Endereco
+
+@{
+    ViewData["Title"] = "Criar Endereço";
+}
+
+<h1>Criar Endereço</h1>
+
+<h4>Dados do Endereço</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Cep" class="control-label">CEP</label>
+                <div class="input-group">
+                    <input asp-for="Cep" class="form-control" id="cep" placeholder="Digite o CEP" />
+                    <button type="button" id="btnBuscarCep" class="btn btn-outline-primary">
+                        <i class="fas fa-search"></i> Buscar CEP
+                    </button>
+                </div>
+                <span asp-validation-for="Cep" class="text-danger"></span>
+                <div id="cepFeedback" class="invalid-feedback" style="display:none;">
+                    CEP não encontrado ou inválido.
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Estado" class="control-label">Estado</label>
+                <input asp-for="Estado" class="form-control" id="estado" />
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Cidade" class="control-label">Cidade</label>
+                <input asp-for="Cidade" class="form-control" id="cidade" />
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Bairro" class="control-label">Bairro</label>
+                <input asp-for="Bairro" class="form-control" id="bairro" />
+                <span asp-validation-for="Bairro" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Rua" class="control-label">Rua</label>
+                <input asp-for="Rua" class="form-control" id="rua" />
+                <span asp-validation-for="Rua" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Numero" class="control-label">Número</label>
+                <input asp-for="Numero" class="form-control" id="numero" />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Complemento" class="control-label">Complemento</label>
+                <input asp-for="Complemento" class="form-control" id="complemento" />
+                <span asp-validation-for="Complemento" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-outline-secondary">Voltar à Lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        $(document).ready(function () {
+            // Função para formatar o CEP (remover caracteres não numéricos)
+            function formatarCep(cep) {
+                return cep.replace(/\D/g, '');
+            }
+            
+            // Função para buscar o endereço pelo CEP
+            function buscarEnderecoPorCep(cep) {
+                // Limpar feedback de erro
+                $('#cepFeedback').hide();
+                
+                // Formatar o CEP
+                cep = formatarCep(cep);
+                
+                // Verificar se o CEP tem o tamanho correto
+                if (cep.length !== 8) {
+                    $('#cepFeedback').text('CEP deve conter 8 dígitos.').show();
+                    return;
+                }
+                
+                // Mostrar indicador de carregamento
+                $('#btnBuscarCep').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Buscando...');
+                $('#btnBuscarCep').prop('disabled', true);
+                
+                // Fazer a chamada AJAX para o endpoint do ViaCEP
+                $.ajax({
+                    url: '/api/ExternalServices/cep/' + cep,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function (data) {
+                        if (data && !data.erro) {
+                            // Preencher os campos com os dados retornados
+                            $('#estado').val(data.uf);
+                            $('#cidade').val(data.localidade);
+                            $('#bairro').val(data.bairro);
+                            $('#rua').val(data.logradouro);
+                            
+                            // Focar no campo de número após preencher os dados
+                            $('#numero').focus();
+                        } else {
+                            // Mostrar mensagem de erro
+                            $('#cepFeedback').text('CEP não encontrado.').show();
+                        }
+                    },
+                    error: function () {
+                        // Mostrar mensagem de erro
+                        $('#cepFeedback').text('Erro ao buscar o CEP. Tente novamente.').show();
+                    },
+                    complete: function () {
+                        // Restaurar o botão
+                        $('#btnBuscarCep').html('<i class="fas fa-search"></i> Buscar CEP');
+                        $('#btnBuscarCep').prop('disabled', false);
+                    }
+                });
+            }
+            
+            // Evento de clique no botão de buscar CEP
+            $('#btnBuscarCep').click(function () {
+                var cep = $('#cep').val();
+                buscarEnderecoPorCep(cep);
+            });
+            
+            // Evento de pressionar Enter no campo de CEP
+            $('#cep').keypress(function (e) {
+                if (e.which === 13) { // Código da tecla Enter
+                    e.preventDefault(); // Prevenir o envio do formulário
+                    var cep = $(this).val();
+                    buscarEnderecoPorCep(cep);
+                }
+            });
+        });
+    </script>
+}
